@@ -11,4 +11,4 @@ Results
 
 <br>
 
-<img src"https://raw.githubusercontent.com/iamfiasco/facial-recognition-opencv/master/output.jpg">
+<img src="https://raw.githubusercontent.com/iamfiasco/facial-recognition-opencv/master/output.jpg">
