@@ -1,5 +1,6 @@
 import cv2
-color = cv2.imread("team.jpg",1)
+import sys
+color = cv2.imread(sys.argv[1],1)
 bw = cv2.cvtColor(color,cv2.COLOR_BGR2GRAY)
 classf = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
 faces=classf.detectMultiScale(bw,1.1,5)
